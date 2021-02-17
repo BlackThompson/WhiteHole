@@ -1,0 +1,7 @@
+ @import "/pages/add/add.wxss";
+ 
+
+.th2{height: 40px;font-size: 16px; color: #ff9a02; text-indent: 24px; line-height: 40px;margin-left: 10px;}
+.th2{background:url('https://api.telyun.com/ask_img/img/user/uc1.png') -0px center no-repeat;background-size:20px; }
+
+ 

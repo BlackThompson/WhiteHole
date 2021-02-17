@@ -1,0 +1,3 @@
+ @import "/pages/index/index.wxss";
+
+ .ddd{border: 1px red solid;}

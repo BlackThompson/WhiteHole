@@ -1,0 +1,45 @@
+ <view class='box'>
+    <view class='th2'>我的评论
+    </view>
+  </view>
+
+
+
+
+<view class='box'>
+  <view class='box_top'>
+    <view class='head_img l'>
+      <image src='http://api.telyun.com//ask_img/header/u%20(94).jpg'></image>
+    </view>
+    <view class='head_name l'>
+      <view class='n_name'>方世玉</view>
+      <view class='n_time'>2019-02-02</view>
+    </view>
+    <view class='head_ts r' bindtap='del_comment' data-aid='{{item.id}}' data-xid='{{index}}'></view>
+  </view>
+  <view class='box_cont'>
+       <view>祝你天天好心情
+    </view>
+  </view>
+
+
+</view>
+
+<view class='box'>
+  <view class='box_top'>
+    <view class='head_img l'>
+      <image src='http://api.telyun.com//ask_img/header/u%20(94).jpg'></image>
+    </view>
+    <view class='head_name l'>
+      <view class='n_name'>方世玉</view>
+      <view class='n_time'>2019-02-02</view>
+    </view>
+    <view class='head_ts r' bindtap='del_comment' data-aid='{{item.id}}' data-xid='{{index}}'></view>
+  </view>
+  <view class='box_cont'>
+       <view>祝你天天好心情
+    </view>
+  </view>
+
+
+</view>

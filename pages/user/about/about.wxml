@@ -1,0 +1,21 @@
+<view class='logo' bindtap='imgYu'>
+<image src='https://api.telyun.com/ask_img/img/money.jpg' mode='widthFix' ></image>
+<view style='font-size:14px;color:#999;'>长按图片识别</view>
+
+</view>
+
+
+<view class='sming'>"<text>您的打赏是对我们最大的鼓励！</text>"</view>
+
+<view class='about'>
+<view>人总需要一个倾诉的地方，童话故事里人们将心事找个树洞倾诉，然后用泥封住，而现实社会中的人们也需要这样一个树洞来倾诉，心理医生说过，倾诉有利于身心健康，这就是树洞的由来。</view>
+<view>如果您有好的意见/建议，您可以点击联系我们按钮,我们会第一时间回复您</view>
+<view style='margin:10px auto 0;' class=''><button class='tips_kf' open-type='contact' session-from='weapp'>联系我们</button></view>
+
+
+
+
+
+
+</view>
+

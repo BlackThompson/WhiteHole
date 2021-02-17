@@ -1,0 +1,100 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "autoAudits": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.6.6",
+  "appid": "wx85a8f76066ea82a8",
+  "projectname": "%E6%A0%91%E6%B4%9E",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 0,
+          "name": "单篇查找",
+          "pathName": "pages/show/show",
+          "query": "aid=1333972",
+          "scene": null
+        },
+        {
+          "id": 1,
+          "name": "1334055",
+          "pathName": "pages/show/show",
+          "query": "aid=1334055",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "发布信息",
+          "pathName": "pages/add/add",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 3,
+          "name": "会员中心",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "我的秘密",
+          "pathName": "pages/user/mymm/mymm",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "about",
+          "pathName": "pages/user/about/about",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "圈子",
+          "pathName": "pages/span/span",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

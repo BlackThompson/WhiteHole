@@ -1,0 +1,73 @@
+<view class='info'>
+
+  <view class='user'>
+    <view class='userinfo'>
+      <view class='pic l'>
+        <image src="{{uinfo.a_header}}"></image>
+      </view>
+      <view class='youz r'>
+        <view class='name l'>
+          <text style='font-weight: bold;font-size: 16px;float:left;'>{{uinfo.a_nickname}}</text>
+          <text class='uid r' bindtap='u2u'>切换身份</text>
+        </view>
+        <view class='tip'>安全模式不允许使用真名和头像</view>
+      </view>
+
+    </view>
+
+
+    <view class='c'></view>
+
+    <view class='datanub'>
+      <view class='gz'>
+        <i>{{us_data.guanzhu}}</i>关注</view>
+      <view class='gz'>
+        <i>{{us_data.fensi}}</i>粉丝</view>
+      <view class='gz'>
+        <i>{{us_data.dianzan}}</i>
+        赞数</view>
+      <view class='gz hide' bindtap='fabiao'>
+        <i>{{us_data.fabiao}}</i>
+        发表</view>
+
+
+    </view>
+
+  </view>
+
+</view>
+
+
+<view class='nav'>
+  <view bindtap='like'><i class='uc1'></i>我的收藏</view>
+  <view bindtap='mymm'><i class='uc2'></i>我的秘密</view>
+  <view bindtap='gif'><i class='uc3'></i>我的礼物</view>
+  <view bindtap='comment'><i class='uc4'></i>我的评论</view>
+</view>
+
+<view class='nav'>
+  <view class='hide'><i class='uc5'></i>邀请好友</view>
+  <view bindtap='happy'><i class='uc6'></i>开心一刻</view>
+  <view bindtap='check_2u'><i class='uc7'></i>查看圈子</view>
+  <view><i class='uc8'></i>
+    <button class='tips_kf' open-type='contact' session-from='weapp'>树洞二姑</button>
+  </view>
+</view>
+
+<view class='nav'>
+  <view bindtap='tip'><i class='uc9'></i>发布规则</view>
+  <view bindtap='about'><i class='uc10'></i>关于我们<text class='r'>➊</text></view>
+</view>
+
+
+<view class='c'></view>
+
+<view style='font-size:25rpx;color:#888; text-align: center;line-height:50px;'>【UC{{uinfo.uid}}SD】 </view>
+
+
+
+
+
+
+<!-- 底部导航 -->
+<include src="/pages/inc/foot_nav.wxml" />

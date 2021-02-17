@@ -1,0 +1,7 @@
+ @import "/pages/index/index.wxss";
+
+ .ddd{border: 1px red solid;}
+
+  .th2{background:url('https://api.telyun.com/ask_img/img/user/uc6.png') -0px center no-repeat;background-size:20px; }
+
+ 

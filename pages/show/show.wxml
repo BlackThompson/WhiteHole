@@ -1,0 +1,71 @@
+  <view class='box'>
+    <view class='box_top'>
+      <view class='head_img l'>
+        <image src='{{show.userinfo.a_header}}'></image>
+      </view>
+      <view class='head_name l'>
+        <view class='n_name'>{{show.userinfo['a_nickname']}}</view>
+        <view class='n_time'>{{show.addtime}}</view>
+      </view>
+      <view class='head_ts r'></view>
+    </view>
+    <view class='box_cont'>
+      <text> {{show.contact}}
+        </text>
+    </view>
+
+    <view class="box_img" bindtap="imgYu" data-list="{{show.img}}" wx:if='{{show.img}}'>
+    <image src="{{show.img}}" mode='widthFix'></image>
+    </view>
+
+
+    <view class='bax_ht' wx:if="{{show.tags==''||show.tags=='null'||show.tags==null}}">
+    </view>
+     <view class='bax_ht' wx:else>
+       <text class='ys1'>#{{show.tags}}</text>
+    </view>
+
+
+    <view class='box_tool'>
+      <view class='' bindtap='cai' data-aid='{{show.id}}'>
+        <i class="pt1"></i>
+        <text>举报</text>
+      </view>
+      <view class='mind' bindtap='ding' data-aid='{{show.id}}'  data-xid='{{index}}'>
+        <i class="pt2"></i><text wx:if="{{show.din==0}}">投诉</text><text wx:else>{{show.din}}</text></view>
+      <view class=''>
+        <button data-name="shareBtn" open-type="share" class='shear-bt'>分享</button> 
+       </view>
+    </view>
+  </view>
+ 
+ 
+<!--用户评论--> 
+    <view class='p2'><i></i>用户评论</view>
+<view class='talk'> 
+<view class='li' wx:for="{{ping}}" wx:key="{{index}}">
+  <view class='user'>
+    <image src="{{item.userinfo['a_header']}}" style='' mode="aspectFill"></image>
+    <view>
+    <view class='p_name'>{{item.userinfo['a_nickname']}}</view>
+    <view class='time'>{{item.addtime}}</view>
+    </view>
+  </view>
+  
+  <view class='comment_li'>{{item.comments}}</view>
+ 
+</view>
+ <view class='noli' wx:if="{{ping==''}}"> 还没有评论，快来抢沙发吧</view>
+</view>
+
+
+
+
+<include src="/pages/inc/talk.wxml" />
+<view style='height:74px;'></view>
+
+<include src="/pages/inc/share.wxml" />
+ 
+
+
+

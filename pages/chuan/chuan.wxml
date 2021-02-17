@@ -1,0 +1,32 @@
+<include src="/pages/inc/search.wxml" />
+
+<view class='tab'>
+    
+  <text bindtap='home'>最新</text>
+  <text class='check' bindtap='chuan'>穿越</text>
+</view>
+<view class='gekai'></view>
+
+
+<include src="/pages/inc/table.wxml" />
+
+
+<!---未完成工作
+1 详细页的分享按钮及样式#
+2 首页阅读次数ICON设计#
+3 导航中间按钮的ICON设计#
+4 阅读全文的三角按钮ICON设计#
+5 详细页的举报按钮样式#
+6 详细页的新增返回首页链接样式#
+7 数据库新增chick字段存储访问次数#
+8 采集新增随机阅读数2-40#
+9 详细页的授权展示排版#
+
+
+---->
+ 
+
+
+
+<!-- 底部导航 -->
+<include src="/pages/inc/foot_nav.wxml" />

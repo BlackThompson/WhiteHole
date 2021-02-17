@@ -1,0 +1,42 @@
+ 
+
+
+
+<!-- 导航栏开始 -->
+<view class='tab'>
+  <block wx:for="{{tabs}}" wx:key >
+    <text class="swiper-tab-item {{curIdx==index?'check':''}}" data-current="{{index}}" data-tags='{{item.name}}' catchtap="clickTab">{{item.name}}</text>
+  </block>
+</view>
+<view class='gekai' style='margin-bottom:10px;display:table;'></view>
+<!-- 内容开始 -->
+
+<swiper class="swiper_content" current="{{curIdx}}" style='height:{{scrollHeight}}px'>
+
+<block wx:for="{{tabs}}"  wx:key >
+ <swiper-item >
+   <scroll-view class="scroll-y" scroll-y style='height:{{scrollHeight}}px' bindscrolltolower="onReachBottom">
+     
+      <include src="/pages/inc/table.wxml" />
+     
+     </scroll-view>
+  </swiper-item>
+
+</block>
+ 
+ 
+
+
+</swiper>
+
+ 
+
+
+
+<!-- 底部导航 -->
+<include src="/pages/inc/foot_nav.wxml" />
+
+
+
+
+

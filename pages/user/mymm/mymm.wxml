@@ -1,0 +1,19 @@
+
+
+
+ <view class='box'>
+    <view class='th2'>我的秘密
+    </view>
+  </view>
+
+
+
+
+
+
+
+
+
+
+
+<include src="/pages/inc/table.wxml" />

@@ -1,0 +1,14 @@
+
+<view class='share'>
+  <view class='tool' bindtap='home'>
+    <i class='home'></i>
+    <text>首页</text>
+  </view>
+  <view class='tool'  bindtap='ding' data-aid='{{show.id}}'>
+   <i class='like'></i>
+    <text>收藏</text>
+  </view>
+  <view class='toolb'>
+      <button data-name="shareBtn" open-type="share">转发</button> 
+  </view>
+</view>

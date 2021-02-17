@@ -1,0 +1,43 @@
+ @import "/pages/index/index.wxss";
+
+
+
+
+ 
+/*评论*/
+.tit{padding:0 10px;}
+.talk{font-size: 14px; color: #b4b5b9; background-color: #fff;}
+.talk .li{border-bottom: 1px solid #dadada;margin:0px 20px;padding-top:10px;}
+.talk .user{height: 40px;}
+.talk .user image{width: 35px; height: 35px; border-radius:35px; float: left;background-color:#dfdfdf;}
+.talk .p_name{font-size: 14px; color: #666;}
+.talk .user view{margin-left:23px;}
+.talk .comment_li{color: #666; line-height: 25px;padding-bottom: 10px;}
+.talk.time{ width: 100%; text-align: right; line-height: 35px; font-size: 12px;}
+.talk .noli{ height: 100px; background: url('https://api.telyun.com/ask_img/img/notalk.png') center 20px no-repeat;background-size:20%;line-height:170px;text-align:center;padding:15px;}
+
+/*评论*/
+ 
+.feedback { background-color: #eee;padding:10px 2%;width:96%;height:35px;}
+.feedback .inpt{background-color:#fff;width:79%;color:#666; padding:0px 2%;font-size:13px;border-radius:5px;float: left;height:35px;
+}
+.pingbt{width:15%;height:35px;z-index: 2px;float: left;padding:0px;font-size:14px;margin-left:2%;background-size:17px;color: #ff9a02;}
+
+ 
+
+
+.p1{ width: 94%; margin:3% auto; background-color: #fff; border-radius: 10px;box-shadow:0 0 20rpx #dadada; font-size: 14px;}
+.p2{ margin: 10px 8px 15px; font-size: 16px;}
+.p2 text{ color: #cdcdcd;}
+.p2 i{padding: 10px 3px;display: table; background-color: #ff9a02; float: left; margin-right: 10px; border-radius: 5px;}
+
+/*tool*/
+.share{position:fixed;bottom:0;width:100%;background-color:#fff; color: #888888; padding:0;}
+.share .tool{ width:18%; float: left; text-align: center;font-size: 12px; margin-top: 5px;border-top:1px solid #f1f1f1;}
+.share .toolb{ width:64%; float: right; text-align: center;font-size: 13px; border-radius: 0px; }
+.toolb button{height: 46px;border-radius: 0px;background-color: #ff9a02;margin-top: 5px;color: #fff;}
+.tool .home{background:url('https://api.telyun.com/ask_img/img/nav_2.png') center no-repeat;height: 30px;display:block;background-size:27px;}
+.tool .like{background:url('https://api.telyun.com/ask_img/img/v20.png') -200px 0px no-repeat;height: 30px;display:block;background-size:550px;}
+ .kefu button{height: 52px; line-height: 52px;}
+.shear button{height: 30px;background:url('https://api.s1.g3user.com/mp_img/tool/tool_03.png') center no-repeat; background-size: 30px; font-size: 12px; padding: 0px;line-height: 52px;}
+.shear-bt{background:url('https://api.telyun.com/ask_img/img/v20.png') -275px 5px no-repeat;background-size:400px;line-height: 35px;text-indent:20px;color: #999;font-size: 15px;}

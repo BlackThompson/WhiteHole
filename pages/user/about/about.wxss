@@ -1,0 +1,9 @@
+/* pages/user/about/about.wxss */
+
+
+.logo{ width: 90%; margin: 20px auto; text-align: center;}
+.logo image { width: 60%;}
+.sming{text-align: center; line-height: 50px; font-size:30px;}
+.sming text{font-size: 20px;font-weight: bold;}
+.about{ margin:5%;font-size: 16px; line-height: 30px; text-indent: 20px;}
+.tips_kf{background-color: #ff9a02; font-size: 16px;line-height: 40px; color: #fff; }

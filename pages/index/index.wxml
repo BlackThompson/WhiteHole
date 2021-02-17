@@ -1,0 +1,14 @@
+<include src="/pages/inc/search.wxml" />
+
+<view class='tab'>
+  <text class='check' bindtap='home'>最新</text>
+  <text bindtap='chuan'>穿越</text>
+</view>
+<view class='gekai'></view>
+
+<include src="/pages/inc/table.wxml" />
+
+ 
+
+<!-- 底部导航 -->
+<include src="/pages/inc/foot_nav.wxml" />

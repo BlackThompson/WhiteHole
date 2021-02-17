@@ -1,0 +1,44 @@
+<block wx:for="{{list}}" wx:key="{{index}}">
+  <view class='box'>
+    <view class='box_top'>
+      <view class='head_img l'>
+        <image src='{{item.userinfo[0].a_header}}'></image>
+      </view>
+      <view class='head_name l'>
+        <view class='n_name'>{{item.userinfo[0].a_nickname}}</view>
+        <view class='n_time'>{{item.addtime}}</view>
+      </view>
+      <view class='head_ts r' bindtap='cai' data-aid='{{item.id}}' data-xid='{{index}}'></view>
+    </view>
+    <view class='box_cont'>
+      <view wx:if='{{item.open>50}}' bindtap='show' data-aid='{{item.id}}'> {{item.contact}}  
+      <text class='jxs '>阅读全文</text>
+        </view>
+      <view wx:else> {{item.contact}}
+        </view>
+    </view>
+
+    <view class="box_img" bindtap="imgYu" data-list="{{item.img}}" wx:if='{{item.img}}'>
+      <image src="{{item.img}}" mode='aspectFill'></image>
+    </view>
+
+
+    <view class='bax_ht' wx:if="{{item.tags==''||item.tags=='null'||item.tags==null}}">
+    </view>
+     <view class='bax_ht' wx:else>
+       <text class='ys1'>#{{item.tags}}</text>
+    </view>
+
+
+    <view class='box_tool'>
+      <view class='' bindtap='show' data-aid='{{item.id}}'>
+        <i class="pt1"></i>
+        <text>评论</text>
+      </view>
+      <view class='mind'  bindtap='ding' data-aid='{{item.id}}' data-xid='{{index}}'>
+        <i class="pt2"></i><text wx:if="{{item.din==0}}">点赞</text><text wx:else>{{item.din}}</text></view>
+      <view class='' >
+        <i class="pt3"></i><text>{{item.check}}</text></view>
+    </view>
+  </view>
+</block>

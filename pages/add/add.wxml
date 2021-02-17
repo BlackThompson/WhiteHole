@@ -1,0 +1,80 @@
+ <view class='tip_info hide'>保护您的隐私安全，已为您生成匿名名称：{{a_nickname}}</view>
+ 
+ 
+ <view class='wp'> 
+  <form bindsubmit="add_need">
+    <view class='txt'>请勿发布非法信息 <text bindtap='tips' style='color:#ff9a02;'>发布规范</text></view>
+    <view class='title hide'>
+      <input type='text' name="title" placeholder='输入需求标题' style="height:50px;padding-left: 10px;" />
+    </view>
+
+    <view class='desc'>
+      <textarea name="contact" maxlength="500" placeholder="填写内容(12-500字)" style="height:360rpx;padding: 10px;" />
+    </view>
+ 
+
+    <view class=''><view class='tags'>
+      <view class='txt'>请选择行业标签：</view>
+      <block wx:for="{{tages}}">
+        <text>{{item}}</text>
+      </block>
+    </view>
+     
+     <view> 
+     <radio-group class="item-right radio-group" bindchange="changeSex">
+          <label class="radio" wx:for="{{tags}}">
+               <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.name}}
+          </label>
+     </radio-group>
+</view> 
+
+
+    <checkbox-group class='tags' bindchange="checkChange" name="labelname">
+      <label bindtap="click" wx:for="{{items}}" wx:key="{{tages}}" class="free-radio {{item.checked?'is_checked':''}}">
+        <checkbox value="{{item.name}}"  checked="{{item.checked}}" hidden='true'></checkbox>
+        <label class="free-text">{{item.value}}</label>
+      </label>
+    </checkbox-group>
+
+ </view>
+
+    <view class='tips'>
+      <text>可以添加图片</text>
+      <text>（大小不要超过200K）</text>
+    </view>
+
+
+    <view class="img nopic" bindtap='didPressChooesImage'>
+      <image src="{{imageObject}}" mode="aspectFit" style='width:70px; height:70px;'></image>
+    </view>
+
+
+
+
+
+    <view class='wp'>
+      <button class='input' style='background-color: #ffeb6e; color: #333;width:67%' formType="submit">发送</button>
+    </view>
+
+
+
+
+
+    <view style='display:none'>
+      <input type='text' name="imgurl" value='{{imageObject}}' />
+      <input type='text' name="typeid" value='1' />
+    </view>
+
+
+
+
+
+  </form>
+</view>
+
+<view class='tips_kf'>
+<button class='tips_kf' open-type='contact' session-from='weapp'>或者和树洞仙姑说说心事</button>
+</view>
+
+
+<include src="/pages/in/foot_nav.wxml" />

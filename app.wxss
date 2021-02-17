@@ -1,0 +1,29 @@
+page{margin:0;padding:0;}
+.x{outline:1px solid red;}
+.c{clear:both}
+.l{float:left}
+.r{float:right}
+.lum{box-shadow:0 0 20rpx #dadada}
+.wm{margin:12px}
+.wp{padding:3%}
+button::after{margin:0rpx;padding:0rpx;border:none}
+.h{filter:grayscale(100%)}
+.hide{display:none}
+.show{display:block}
+.win_login{position:fixed;z-index:30;margin-top:-50px;width:100%;height:200%;background-color:rgba(0,0,0,.75)}
+.win_red{margin:40% auto;width:85%;height:360px;border-radius:10px;background-color:#fc7272;opacity:10}
+.win_img{height:100%;background:url(https://api.telyun.com/game2_img/img/gif2019.jpg?S) no-repeat center center;background-size:240px;color:#fff;text-align:center}
+.win_mt{padding-top:20px;font-weight:700;font-size:18px}
+.win_mt2{margin:0 auto;padding:20px;width:75%;font-size:25px}
+.win_bt{margin-top:150px;width:65%;border-radius:30px;background-color:#ffd400;color:#333}
+
+
+
+/*底部菜单*/
+footer{position:fixed;height:95rpx;bottom:0;width:100%;box-shadow:0 0 20rpx #dadada;background-color: #fff;}
+.ft_nav .div{float:left;width:33.3%;text-align:center;display:block;margin-top:5rpx;}
+.ft_nav text{display:block;font-size:22rpx;margin-top:-5px;color:#3c3c3c}
+.or{width:62rpx;height:59rpx;text-align:center}
+.yuaner {position:fixed;width:110rpx;height:110rpx;border-radius:55rpx;bottom:40rpx;left:45%;}
+.yuaner view{font-size:30rpx;text-align:center;margin-top:-10rpx}
+.yuan{width:120rpx;height:120rpx;border-radius:60rpx;box-shadow:0 0 20rpx #dadada;margin:0 25%;}

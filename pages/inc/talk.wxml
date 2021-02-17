@@ -1,0 +1,32 @@
+
+
+ <block wx:if='{{stat==1}}'>
+ <view class='p2'><i></i>我要留言</view>
+
+
+ <view class='talk'> 
+<view class='li' >
+  <view class='user'>
+    <image src="{{userinfo.a_header}}" style='' mode="aspectFill"></image>
+    <view>
+    <view class='p_name'>{{userinfo.a_nickname}}</view>
+    <view class='time'>文明留言，请勿恶意谩骂</view>
+    </view>
+  </view>
+  
+  <view class='comment_li'>
+   <form bindsubmit="add_comment">
+   <textarea name="comments" maxlength="500" value='{{comments}}' placeholder="写下您的评论" style="height:120rpx;padding: 10px;outline:1px solid #ccc;margin: 5px 0;width:auto;" />
+   <input type='text' style="display:none" name="aid" value='{{info.id}}' />
+      <button class='pingbt' formType="submit">发送</button>
+      
+       </form>
+      <view class='c'></view>
+  </view>
+ 
+</view></view>
+
+
+</block>
+
+ 

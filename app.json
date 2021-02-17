@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/span/span",
+    "pages/chuan/chuan",
+    "pages/user/user",
+    "pages/index/index",
+    "pages/add/add",
+    "test/zkxq",
+    "pages/logs/logs",
+    "pages/show/show",
+    "pages/pic/pic",
+    "pages/tip/tip",
+    "pages/user/like/like",
+    "pages/user/mymm/mymm",
+    "pages/user/comment/comment",
+    "pages/user/about/about"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

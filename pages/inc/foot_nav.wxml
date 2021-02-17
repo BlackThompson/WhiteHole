@@ -1,0 +1,29 @@
+<view class='' style='width:33.3%;position:fixed;bottom:23rpx;height:110rpx;margin:0 33.3%;'>
+  <view wx:if='{{stat==1}}' style='width:110rpx;height:110rpx;border-radius:55rpx;box-shadow:0 0 30rpx #ccc;margin:0 auto; display: block'></view>
+</view>
+<footer class=''>
+  <view class='ft_nav '>
+    <view bindtap="home" class='div'>
+      <image src='https://api.telyun.com/ask_img/img/nav_2.png' class='or'></image>
+      <text>最新</text>
+    </view>
+<block wx:if='{{stat==1}}'>
+    <view class='div' style='position:relative;top:-27px;' bindtap="add">
+      <view style='width:110rpx;height:110rpx;border-radius:55rpx;background-color:#fff;margin:0 auto;'>
+        <image src='https://api.telyun.com/ask_img/img/flash.png' style='width:110rpx;height:110rpx;'></image><text>说个秘密</text>
+      </view>
+    </view>
+</block>
+<block wx:if='{{stat==0}}'>
+    <view bindtap="span" class='div happy'>
+      <image src='https://api.telyun.com/ask_img/img/happy.png?s' class='or'></image>
+      <text>圈子</text>
+    </view>
+</block>
+
+    <view bindtap="user" class='div'>
+      <image src='https://api.telyun.com/ask_img/img/nav_05.png' class='or'></image>
+      <text>我的</text>
+    </view>
+  </view>
+</footer>

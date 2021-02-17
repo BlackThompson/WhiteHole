@@ -1,0 +1,67 @@
+/* pages/user/user.wxss */
+page{background: url('https://api.telyun.com/ask_img/img/mebanner.jpg') no-repeat 0 -50px; background-size: 100%;}
+
+/* 用户信息 */
+.info{margin: 125px auto 0; font-size: 16px; background-color: #fff; width: 92%; border-radius: 5px;box-shadow:0 0 20rpx #dadada; color: #666;}
+
+.pic{width: 30%;}
+.pic image{width: 80px;height: 80px; border-radius: 50px; margin: -15px 10px 0; background-clip: #fff;border: 1px solid rgb(235, 235, 235);}
+.youz{width:70%;}
+.name{font-size: 14px;margin:10px 5px 10px 0px;width: 95%;}
+.uid{background: url('https://api.telyun.com/ask_img/img/user/huan.png') no-repeat 0 -3px; font-size: 12px;background-size: 20px; text-indent: 25px;}
+.tip{font-size: 12px; padding:0 0px;float:left;}
+
+.datanub{ height: 50px; text-align: center; margin: 10px 0;padding-bottom:10px;}
+.datanub view{ width: 33.33%; float: left; }
+.gz i{font-weight: bold;}
+.datanub i{ width: 100%; display: table; padding: 5px 0;}
+.tips_kf{color:#000;font-size:16px;text-align: left; width: 80%;float: left;background-color: #fff; padding-left: 0px;line-height: 48px;}
+
+/* menu */
+.menu{padding: 10px 0px; font-size: 12px;color: #666; margin: 20px 0;height: 75px; box-shadow:0 0 20rpx #dadada;}
+.menu view{width: 25%; float: left; height: 75px; outline:0px solid red; line-height: 130px;text-align: center;background-size: 430px; }
+.mu1{background: url('https://api.telyun.com/ask_img/img/me1.png?1') no-repeat 15px 0px; }
+.mu2{background: url('https://api.telyun.com/ask_img/img/me1.png?1') no-repeat -110px 0px; }
+.mu3{background: url('https://api.telyun.com/ask_img/img/me1.png?1') no-repeat 15px -70px; }
+.mu4{background: url('https://api.telyun.com/ask_img/img/me1.png?1') no-repeat  -110px -70px; }
+
+
+/* com */
+.com{background-color: #f6f6f6; height: 50px; line-height: 50px; text-align: center;font-size: 16px; font-weight: bold; color: #666; padding: 0 10%;}
+.com view{width: 50%; float: left;}
+.dose{background: url('https://api.telyun.com/ask_img/img/me1.png?2') no-repeat -60px -125px;background-size: 420px; padding: 10px}
+
+
+/* u_info */
+.list{ padding: 10px; font-size: 12px; color: #666;border-bottom:8px solid #f3f3f3;}
+.u_info{height: 50px;padding:10px;}
+.u_img{ float: left; margin-right: 10px;}
+.u_img image{width: 45px;height: 45px; border-radius: 30px; margin: 0; background-clip: #fff;border: 1px solid rgb(235, 235, 235);}
+.u_name{ font-size: 16px; line-height: 30px; color: #333;}
+.u_name text{ color: #ccc;font-size: 12px;}
+.u_dist{font-size: 12px;}
+.u_dist text{ margin-left: 0px;}
+.u_item{font-size: 14px;line-height: 30px;margin-bottom:10px;}
+
+
+.but text{height: 30px; outline: 0px solid red; padding:0px 15px;float:right; margin-left: 5px;background-size:388px;}
+.zan{background:url('https://api.telyun.com/ask_img/img/me1.png?a') -200px -10px no-repeat;}
+.pin{background:url('https://api.telyun.com/ask_img/img/me1.png?4') -255px -10px no-repeat;}
+.show{background:url('https://api.telyun.com/ask_img/img/me1.png?4') -305px -10px no-repeat;line-height: 30px; width: 50px; text-indent: 20px;}
+
+
+/* user cent v1 */
+.nav{width: 92%; margin: 10px auto; font-size: 16px;box-shadow:0 0 20rpx #dadada;border-radius: 5px;}
+.nav view{ height: 50px; line-height: 50px; outline: 0px solid red; padding-left: 15px;background:url('https://api.telyun.com/ask_img/img/user/you.png') right center no-repeat;background-size: 15px; margin-right: 10px;}
+.nav i{width: 30px;height: 50px;background-size: 80%;float: left;}
+.nav text{ margin-right: 20px; color: red; font-size: 16px;}
+.uc1{background:url('https://api.telyun.com/ask_img/img/user/uc1.png') 0px center no-repeat;}
+.uc2{background:url('https://api.telyun.com/ask_img/img/user/uc2.png') 0px center no-repeat;}
+.uc3{background:url('https://api.telyun.com/ask_img/img/user/uc3.png') 0px center no-repeat;}
+.uc4{background:url('https://api.telyun.com/ask_img/img/user/uc4.png') 0px center no-repeat;}
+.uc5{background:url('https://api.telyun.com/ask_img/img/user/uc5.png') 0px center no-repeat;}
+.uc6{background:url('https://api.telyun.com/ask_img/img/user/uc6.png') 0px center no-repeat;}
+.uc7{background:url('https://api.telyun.com/ask_img/img/user/uc7.png') 0px center no-repeat;}
+.uc8{background:url('https://api.telyun.com/ask_img/img/user/uc8.png') 0px center no-repeat;}
+.uc9{background:url('https://api.telyun.com/ask_img/img/user/uc9.png') 0px center no-repeat;}
+.uc10{background:url('https://api.telyun.com/ask_img/img/user/uc10.png') 0px center no-repeat;}

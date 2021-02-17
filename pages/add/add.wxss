@@ -1,0 +1,27 @@
+/* pages/push/push.wxss */
+page{font-size:14px;}
+.txt{color:#999999;font-size:24rpx;}
+
+.title{font-size:16px; line-height:50px;margin: 10px 0;border: 1px solid #e5e5e5;background-color: #fcfafa; height: 50px;}
+
+.desc{font-size:16px; line-height: 30px;margin: 10px 0;border: 1px solid #e5e5e5;background-color: #fcfafa;}
+
+.tips{width: 100%; color: #ccc; font-size: 12px;line-height:60rpx; }
+.tags{line-height: 35px;}
+
+.tags text{margin-right:10px; text-align: center; border: 1px solid #ccc; padding: 3px 8px; border-radius: 3px;}
+
+.tips_kf{color:#999999;font-size:24rpx;line-height:60rpx; text-align: center;}
+
+
+.img image{width: 70px; height: 70px;}
+.nopic{background: url('http://api.s1.g3user.com/mp_img/addpic.png') no-repeat center;width: 70px; height: 70px; background-size: 75px;}
+
+.is_checked {background-color: red;color: #fff;}
+.free-radio{margin-right:10px; text-align: center; border: 1px solid #ccc; padding: 3px 8px; border-radius: 3px;}
+
+
+footer .push{background:url('https://api.s1.g3user.com/mp_img/nav/nav1_07.png') center no-repeat;background-size:30px;}
+.n3{color: #1091ff;}
+
+.tip_info{ padding: 5px 10px; background-color: #fbf9e6; color: #fec100; font-size: 12px;border: 1px solid #ffde00;}

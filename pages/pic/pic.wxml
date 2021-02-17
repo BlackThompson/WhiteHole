@@ -1,0 +1,19 @@
+<!-- 公共头部 -->
+<include src="/pages/inc/search.wxml" />
+
+
+<!-- 内容展示区 -->
+
+ <view class='box'>
+    <view class='th2'>开心一刻
+    </view>
+  </view>
+
+
+<include src="/pages/inc/table.wxml" />
+
+
+ 
+
+<!-- 底部导航 -->
+<include src="/pages/inc/foot_nav.wxml" />
